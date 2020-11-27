@@ -1,0 +1,23 @@
+{
+  "name": "synthaser.js",
+  "version": "0.0.1",
+  "description": "Re-usable D3 chart used in synthaser visualisation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamcil/synthaser.js.git"
+  },
+  "author": "Cameron Gilchrist (https://github.com/gamcil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamcil/synthaser.js/issues"
+  },
+  "homepage": "https://github.com/gamcil/synthaser.js#readme",
+  "devDependencies": {
+    "rollup": "^2.33.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
