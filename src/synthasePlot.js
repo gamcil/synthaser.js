@@ -1,6 +1,7 @@
 /**
- *
- *
+ * Copies some text to user's clipboard.
+ * Creates a hidden <textarea>, attaches it to the document body,
+ * sets text, triggers 'copy', then removes the element.
  */
 function copyToClipboard(text) {
 	let dummy = document.createElement("textarea")
